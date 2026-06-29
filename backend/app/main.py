@@ -63,7 +63,7 @@ MAX_TOTAL_DOCS = 20
 EMBED_MODEL    = "text-embedding-004"
 LLM_MODEL      = "llama-3.3-70b-versatile"
 EMBED_DIM      = 768
-GEMINI_EMBED_BASE = "https://generativelanguage.googleapis.com/v1/models/text-embedding-004:embedContent"
+GEMINI_EMBED_BASE = "https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:embedContent"
 
 UPLOADS_DIR.mkdir(exist_ok=True)
 VS_DIR.mkdir(exist_ok=True)
