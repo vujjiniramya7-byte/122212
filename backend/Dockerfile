@@ -21,4 +21,4 @@ EXPOSE 8000
 
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
 
-# cache-bust: v9
+# cache-bust: v10
